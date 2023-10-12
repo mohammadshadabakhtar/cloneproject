@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #2F1893;
+}
+
+
+/*############### HEADER START ###################*/
+
+header {
+    width: 100%;
+}
+
+nav h3 {
+    margin-left: 150px;
+    margin-top: 25px;
+    padding: 20px;
+    color: white;
+    width: 150px;
+    position: absolute;
+    font-family: sans-serif;
+}
+
+nav ul {
+    float: right;
+    margin-right: 150px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 0 10px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.btn1 {
+    color: white;
+    background-color: #E93A7D;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 40px;
+}
+
+
+/*################### HEADER END ###################*/
+
+
+/*###################### SECTION START ########################*/
+
+.box {
+    position: relative;
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/*$$$$$$$$$$$$$ BOX1 START $$$$$$$$$$$$*/
+
+.box1 {
+    position: relative;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 427px;
+}
+
+.box1 h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    color: white;
+}
+
+.box1 h5 {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: white;
+    margin-top: 20px;
+}
+
+.btn2 {
+    color: white;
+    background-color: #E93A7D;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 40px;
+    margin-top: 40px;
+}
+
+
+/*$$$$$$$$$$$$$$ BOX1 END $$$$$$$$$$$$$$$$*/
+
+
+/*$$$$$$$$$$$$$$$$ BOX2 START $$$$$$$$$$$$$$$$*/
+
+.box2 {
+    position: relative;
+    margin-right: 50px;
+    margin-top: 50px;
+    border: 2px solid gray;
+    border-radius: 2px;
+    width: 470px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+
+.form h3 {
+    font-size: 42px;
+    margin: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #1E0E62;
+}
+
+.boxes {
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+
+.checkbox {
+    width: 65%;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+
+.check {
+    background-color: #25DAC5;
+}
+
+#submit {
+    padding: 12px;
+    width: 65%;
+    margin-top: 15px;
+    background-color: #482BE7;
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.inlineText {
+    width: 65%;
+    text-align: center;
+    color: black;
+    position: relative;
+    margin: 10px;
+}
+
+.inlineText:before {
+    content: "";
+    width: 150px;
+    height: 2px;
+    background-color: rgb(239, 243, 244);
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.inlineText:after {
+    content: "";
+    width: 150px;
+    height: 2px;
+    background-color: rgb(239, 243, 244);
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.login {
+    padding: 12px;
+    width: 65%;
+    margin-top: 15px;
+    background-color: #1DA1F2;
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.account {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    width: 65%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.account span {
+    color: #25DAC5;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+/*$$$$$$$$$$$$$$$$$$ BOX2 END $$$$$$$$$$$$$$*/
+
+
+/*################### SECTION END ####################*/
